@@ -7,6 +7,11 @@ def draw_square():
 
     #brad is moving
     brad = turtle.Turtle()
+    turtle.shape("turtle")
+    turtle.pencolor("green")
+    turtle.speed(9)
+    
+    
     brad.forward(100)
     brad.right(90)
 
